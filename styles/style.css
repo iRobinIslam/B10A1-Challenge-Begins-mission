@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .azeret-mono-normal{
   font-family: "Azeret Mono", serif;
   font-optical-sizing: auto;
@@ -49,6 +54,109 @@
 
 /* main styles */
 
+main{
+    margin: 0 150px;
+}
+
+/* Web develop section styles */
+
+.web-development-section{
+    background-color: #f0eeeebb;
+    padding: 80px 50px;
+    margin-bottom: 100px;
+}
+
+.titles{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cards{
+    margin: 0 50px;
+}
+
+.card-1, .card-2{
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.card-1{
+    background-color: white;
+}
+
+.card-title{
+    color: #0D1321;
+    line-height: 1.6;
+}
+
+.card-2{
+    background-image: linear-gradient(to left, #ffffff, #ebebeb);
+}
+
+/* My Inspiration section styles */
+
+.iframe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* targets section styles  */
+
+.targets-section{
+    display: flex;
+    margin: 100px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.targets{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.targets-1, .targets-2, .targets-3{
+    padding: 40px;
+    border-radius: 5px;
+    flex: 1;
+}
+.targets-1{
+    background-color: #fff2b0;
+} 
+
+.targets-2{
+    background-color: #fff2b0;
+}
+
+.targets-3{
+    background-color: #fff2b0;
+}
+
+.target-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    margin: 15px 0;
+}
+
+/* next target section styles */
+
+.card{
+    display: flex;
+    border: 1px solid #b9b9b9;
+    padding: 20px 30px;
+    border-radius: 10ox;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
 
 /* footer styles */
 
