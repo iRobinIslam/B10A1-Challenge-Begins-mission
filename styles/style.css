@@ -49,3 +49,50 @@
 
 /* main styles */
 
+
+/* footer styles */
+
+footer{
+    margin-top: 100px;
+}
+
+/* support section styles */
+.support-section{
+    margin: 0 150px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #00000080, #00000080), url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.support-description{
+    margin-top: 20px;
+}
+
+.inputs {
+    margin-top: 25px;
+}
+
+.input-field{
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20vh;
+}
+
+.submit-button{
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 20px 150px;
+}
